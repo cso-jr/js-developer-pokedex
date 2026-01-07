@@ -1,0 +1,199 @@
+.pokemons{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 0;
+    justify-content: center;
+    list-style: none;    
+}
+
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: auto;
+}
+
+.pokemon .name-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon .number {
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.pokemon .name {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: .25rem;
+}
+.pokemon .types{
+    display: flex;
+    flex-direction: row;
+    padding: .750rem;
+    list-style: none;
+
+}
+.pokemon .types .type{
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: 1rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    
+}
+.detail {
+   align-self: anchor-center;
+}
+
+
+.pokemon .detail .types .type {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    
+}
+
+.menuDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;   
+    padding: 0.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.menuAbout{
+    list-style: none;   
+    padding: 0;
+    margin: 0;
+}
+.item-lista {
+    display: flex; /* Habilita o layout flexbox para cada item da lista (linha) */
+    justify-content: space-between; /* Espaça as colunas */
+    border-bottom: 1px solid #ccc; /* Adiciona uma linha divisória para visualização */
+    padding: 10px 0; /* Adiciona algum espaço vertical */
+    align-items: center; /* Alinha verticalmente o conteúdo das colunas */
+}
+
+.coluna-fixa {
+    /* Define a largura fixa para a primeira coluna */
+    width: 120px; /* Largura fixa desejada (e.g., 150px, 100px, etc.) */
+    /* Garante que a coluna fixa não encolha ou cresça */
+    flex-shrink: 0;
+    margin-left: 15px;
+    color: grey;
+}
+
+.coluna-variavel {
+    flex-grow: 1; /* Faz a coluna crescer para preencher o espaço disponível */
+    /* Adiciona margem à esquerda para separar visualmente da coluna fixa */
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: 100%;      
+   margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
